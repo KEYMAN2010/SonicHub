@@ -570,7 +570,7 @@ MainTab:AddButton({
 	Name = "Mobile Fly",
 	Callback = function()
 	if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled and not UserInputService.MouseEnabled then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/j6Uj7iwn"))()
 	else
 		Notif("You are not playing on a mobile device.", 10)
 	end
